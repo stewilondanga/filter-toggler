@@ -367,18 +367,21 @@ table th {
   }
 }
 
-/*@keyframes blip {
+@keyframes blip {
   0% {
     transform: scale(0);
   }
+
   50% {
     transform: scale(1.25);
   }
+
   100% {
     transform: scale(1);
   }
 }
-.g-checkbox, .g-radio {
+
+/*.g-checkbox, .g-radio {
   display: flex;
   position: relative;
 }
