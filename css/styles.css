@@ -407,7 +407,7 @@ table th {
   transform: scale(0);
 }
 
-/*.g-checkbox input, .g-radio input {
+.g-checkbox input, .g-radio input {
   border: 0;
   clip: rect(0 0 0 0);
   height: 1px;
@@ -418,7 +418,8 @@ table th {
   text-transform: none;
   width: 1px;
 }
-.g-checkbox input:checked ~ .input-target, .g-radio input:checked ~ .input-target {
+
+/*.g-checkbox input:checked ~ .input-target, .g-radio input:checked ~ .input-target {
   color: rebeccapurple;
 }
 .g-checkbox input:checked ~ .input-target .default, .g-radio input:checked ~ .input-target .default {
