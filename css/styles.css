@@ -208,11 +208,12 @@ table th {
   }
 }
 
-/*.filter-table legend {
+.filter-table legend {
   font-size: 1.5rem;
   line-height: 1.6;
 }
-.filter-table .summary {
+
+/*.filter-table .summary {
   color: #888;
   font-size: 0.9rem;
   margin-bottom: 1.25rem;
