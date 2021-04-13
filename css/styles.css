@@ -219,10 +219,11 @@ table th {
   margin-bottom: 1.25rem;
 }
 
-/*.filter-table .colToggle, .filter-table .colToggleLabel {
+.filter-table .colToggle, .filter-table .colToggleLabel {
   margin-bottom: 1rem;
 }
-.filter-table .colToggleLabel {
+
+/*.filter-table .colToggleLabel {
   font-size: 0.9rem;
   margin-right: 1rem;
 }
