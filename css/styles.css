@@ -137,7 +137,7 @@ table {
   width: 100%;
 }
 
-/*table caption {
+table caption {
   border: 0;
   clip: rect(0 0 0 0);
   height: 1px;
@@ -148,7 +148,8 @@ table {
   text-transform: none;
   width: 1px;
 }
-table thead {
+
+/*table thead {
   background: #ddd;
 }
 @media (max-width: 47.9375rem) {
