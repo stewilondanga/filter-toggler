@@ -186,13 +186,13 @@ table th {
     padding-bottom: 0.5rem;
   }
 
-  /*table td:before {
+  table td:before {
     content: attr(data-label);
     font-weight: 600;
   }
 }
 
-.filter-table {
+/*.filter-table {
   border: 0;
   counter-reset: rowNumbers;
   margin-top: 1rem;
