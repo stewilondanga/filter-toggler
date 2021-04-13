@@ -313,10 +313,11 @@ table th {
   width: 1px;
 }
 
-/*.colToggle:focus + label {
+.colToggle:focus+label {
   box-shadow: 0 0 0 2px rgba(102, 51, 153, 0.35);
 }
-.colToggle:checked + .colToggleLabel {
+
+/*.colToggle:checked + .colToggleLabel {
   color: rebeccapurple;
 }
 .colToggle:checked + .colToggleLabel .default {
