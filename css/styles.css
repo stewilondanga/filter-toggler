@@ -159,13 +159,14 @@ table thead {
   }
 }
 
-/*@media (max-width: 47.9375rem) {
+@media (max-width: 47.9375rem) {
   table tbody tr {
     display: block;
     padding-bottom: 2rem;
   }
 }
-table tbody td {
+
+/*table tbody td {
   border-bottom: 1px solid #ddd;
 }
 table th, table td {
