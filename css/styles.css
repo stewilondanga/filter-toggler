@@ -419,10 +419,11 @@ table th {
   width: 1px;
 }
 
-/*.g-checkbox input:checked ~ .input-target, .g-radio input:checked ~ .input-target {
+.g-checkbox input:checked~.input-target, .g-radio input:checked~.input-target {
   color: rebeccapurple;
 }
-.g-checkbox input:checked ~ .input-target .default, .g-radio input:checked ~ .input-target .default {
+
+/*.g-checkbox input:checked ~ .input-target .default, .g-radio input:checked ~ .input-target .default {
   fill: #999;
   transform: scale(0);
 }
