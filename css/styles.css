@@ -1,4 +1,10 @@
 body {
+  background: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+}
+
+/*body {
   text-align: center;
   font-family: courier;
   background-image: url("../assets/image.jpeg");
@@ -105,12 +111,6 @@ body {
 
 .share-button:hover .share__link:nth-of-type(4) {
   transition-delay: 0.4s;
-}
-
-body {
-  background: white;
-  font-family: "Poppins", sans-serif;
-  font-size: 14px;
 }
 @media (min-width: 61.94rem) {
   body {
