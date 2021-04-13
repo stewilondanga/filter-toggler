@@ -119,12 +119,12 @@ body {
   padding-right: 1rem;
 }
 
-/*
 .m-v-lg {
   margin-top: 4rem;
   margin-bottom: 4rem;
 }
 
+/*
 @media (min-width: 48rem) {
   table.bordered {
     border: 1px solid #ddd;
