@@ -149,10 +149,11 @@ table caption {
   width: 1px;
 }
 
-/*table thead {
+table thead {
   background: #ddd;
 }
-@media (max-width: 47.9375rem) {
+
+/*@media (max-width: 47.9375rem) {
   table thead {
     display: none;
   }
