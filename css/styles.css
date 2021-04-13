@@ -229,7 +229,7 @@ table th {
 }
 
 @media (max-width: 47.9375rem) {
-  /*.filter-table table {
+  .filter-table table {
     border-top: 2px solid #ddd;
     margin-left: -1rem;
     margin-right: -1rem;
@@ -237,7 +237,8 @@ table th {
     width: calc(100% + 2rem);
   }
 }
-.filter-table table tbody > tr {
+
+/*.filter-table table tbody > tr {
   counter-increment: rowNumbers;
   position: relative;
 }
