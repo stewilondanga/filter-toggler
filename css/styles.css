@@ -170,10 +170,11 @@ table tbody td {
   border-bottom: 1px solid #ddd;
 }
 
-/*table th, table td {
+table th, table td {
   padding: 0.5rem 1rem;
 }
-table th {
+
+/*table th {
   font-size: 0.9rem;
   text-align: left;
 }
