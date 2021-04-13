@@ -238,11 +238,12 @@ table th {
   }
 }
 
-/*.filter-table table tbody > tr {
+.filter-table table tbody>tr {
   counter-increment: rowNumbers;
   position: relative;
 }
-.filter-table table tbody > tr:after {
+
+/*.filter-table table tbody > tr:after {
   color: #ccc;
   content: counter(rowNumbers);
   font-size: 0.8rem;
