@@ -174,11 +174,12 @@ table th, table td {
   padding: 0.5rem 1rem;
 }
 
-/*table th {
+table th {
   font-size: 0.9rem;
   text-align: left;
 }
-@media (max-width: 47.9375rem) {
+
+/*@media (max-width: 47.9375rem) {
   table td {
     display: flex;
     flex-direction: column;
