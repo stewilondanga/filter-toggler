@@ -153,12 +153,13 @@ table thead {
   background: #ddd;
 }
 
-/*@media (max-width: 47.9375rem) {
+@media (max-width: 47.9375rem) {
   table thead {
     display: none;
   }
 }
-@media (max-width: 47.9375rem) {
+
+/*@media (max-width: 47.9375rem) {
   table tbody tr {
     display: block;
     padding-bottom: 2rem;
