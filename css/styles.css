@@ -228,8 +228,8 @@ table th {
   margin-right: 1rem;
 }
 
-/*@media (max-width: 47.9375rem) {
-  .filter-table table {
+@media (max-width: 47.9375rem) {
+  /*.filter-table table {
     border-top: 2px solid #ddd;
     margin-left: -1rem;
     margin-right: -1rem;
