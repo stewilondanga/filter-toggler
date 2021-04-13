@@ -343,12 +343,12 @@ table th {
   display: none;
 }
 
-/*.colToggle:nth-of-type(3):not(:checked) ~ table thead tr > th:nth-of-type(3),
-.colToggle:nth-of-type(3):not(:checked) ~ table tbody tr > td:nth-of-type(3) {
+.colToggle:nth-of-type(3):not(:checked)~table thead tr>th:nth-of-type(3),
+.colToggle:nth-of-type(3):not(:checked)~table tbody tr>td:nth-of-type(3) {
   display: none;
 }
 
-.colToggle:nth-of-type(4):not(:checked) ~ table thead tr > th:nth-of-type(4),
+/*.colToggle:nth-of-type(4):not(:checked) ~ table thead tr > th:nth-of-type(4),
 .colToggle:nth-of-type(4):not(:checked) ~ table tbody tr > td:nth-of-type(4) {
   display: none;
 }
