@@ -395,14 +395,15 @@ table th {
   width: 1.5rem;
 }
 
-/*.g-checkbox .input-target, .g-radio .input-target {
+.g-checkbox .input-target, .g-radio .input-target {
   color: #999;
   font-size: 0.75rem;
   margin-bottom: 0.375rem;
   padding: 0.375rem;
   padding-left: 1.875rem;
 }
-.g-checkbox .input-target .checked, .g-radio .input-target .checked {
+
+/*.g-checkbox .input-target .checked, .g-radio .input-target .checked {
   transform: scale(0);
 }
 .g-checkbox input, .g-radio input {
