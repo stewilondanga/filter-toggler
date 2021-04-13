@@ -381,11 +381,12 @@ table th {
   }
 }
 
-/*.g-checkbox, .g-radio {
+.g-checkbox, .g-radio {
   display: flex;
   position: relative;
 }
-.g-checkbox .icon, .g-radio .icon {
+
+/*.g-checkbox .icon, .g-radio .icon {
   fill: #999;
   height: 1.5rem;
   left: 0;
