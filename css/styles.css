@@ -130,14 +130,14 @@ body {
   }
 }
 
-/*
 table {
   border: 0;
   border-collapse: collapse;
   margin: 0;
   width: 100%;
 }
-table caption {
+
+/*table caption {
   border: 0;
   clip: rect(0 0 0 0);
   height: 1px;
