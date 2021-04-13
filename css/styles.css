@@ -326,14 +326,14 @@ table th {
   transform: scale(0);
 }
 
-/*.colToggle:checked + .colToggleLabel .checked {
+.colToggle:checked+.colToggleLabel .checked {
   -webkit-animation: blip 0.25s forwards;
-          animation: blip 0.25s forwards;
+  animation: blip 0.25s forwards;
   display: block;
   fill: rebeccapurple;
 }
 
-.colToggle:nth-of-type(1):not(:checked) ~ table thead tr > th:nth-of-type(1),
+/*.colToggle:nth-of-type(1):not(:checked) ~ table thead tr > th:nth-of-type(1),
 .colToggle:nth-of-type(1):not(:checked) ~ table tbody tr > td:nth-of-type(1) {
   display: none;
 }
