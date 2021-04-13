@@ -338,12 +338,12 @@ table th {
   display: none;
 }
 
-/*.colToggle:nth-of-type(2):not(:checked) ~ table thead tr > th:nth-of-type(2),
-.colToggle:nth-of-type(2):not(:checked) ~ table tbody tr > td:nth-of-type(2) {
+.colToggle:nth-of-type(2):not(:checked)~table thead tr>th:nth-of-type(2),
+.colToggle:nth-of-type(2):not(:checked)~table tbody tr>td:nth-of-type(2) {
   display: none;
 }
 
-.colToggle:nth-of-type(3):not(:checked) ~ table thead tr > th:nth-of-type(3),
+/*.colToggle:nth-of-type(3):not(:checked) ~ table thead tr > th:nth-of-type(3),
 .colToggle:nth-of-type(3):not(:checked) ~ table tbody tr > td:nth-of-type(3) {
   display: none;
 }
