@@ -192,7 +192,7 @@ table th {
   }
 }
 
-/*.filter-table {
+.filter-table {
   border: 0;
   counter-reset: rowNumbers;
   margin-top: 1rem;
@@ -200,7 +200,8 @@ table th {
   padding: 0 1rem;
   position: relative;
 }
-@media (min-width: 48rem) {
+
+/*@media (min-width: 48rem) {
   .filter-table {
     padding: 0 2.5rem;
     margin-top: 2rem;
