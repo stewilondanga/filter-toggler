@@ -180,12 +180,13 @@ table th {
 }
 
 @media (max-width: 47.9375rem) {
-  /*table td {
+  table td {
     display: flex;
     flex-direction: column;
     padding-bottom: 0.5rem;
   }
-  table td:before {
+
+  /*table td:before {
     content: attr(data-label);
     font-weight: 600;
   }
