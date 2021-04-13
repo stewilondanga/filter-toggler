@@ -266,7 +266,6 @@ table th {
   }
 }
 
-/*
 .colToggleLabel {
   align-items: center;
   color: #999;
@@ -277,7 +276,8 @@ table th {
   padding: 0.5rem 0.5rem 0.5rem 2rem;
   position: relative;
 }
-@media (max-width: 47.9375rem) {
+
+/*@media (max-width: 47.9375rem) {
   .colToggleLabel {
     padding: 0.25rem 0.25rem 0.25rem 2rem;
   }
