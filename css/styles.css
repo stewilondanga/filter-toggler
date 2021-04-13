@@ -105,12 +105,13 @@ body {
   transition-delay: 0.4s;
 }
 
-/*@media (min-width: 61.94rem) {
+@media (min-width: 61.94rem) {
   body {
     font-size: 16px;
   }
 }
 
+/*
 .container-md {
   max-width: 991px;
   margin-left: auto;
