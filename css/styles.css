@@ -321,11 +321,12 @@ table th {
   color: rebeccapurple;
 }
 
-/*.colToggle:checked + .colToggleLabel .default {
+.colToggle:checked+.colToggleLabel .default {
   fill: #999;
   transform: scale(0);
 }
-.colToggle:checked + .colToggleLabel .checked {
+
+/*.colToggle:checked + .colToggleLabel .checked {
   -webkit-animation: blip 0.25s forwards;
           animation: blip 0.25s forwards;
   display: block;
