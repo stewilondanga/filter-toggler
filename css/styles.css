@@ -257,8 +257,8 @@ table th {
   white-space: nowrap;
 }
 
-/*@media (max-width: 47.9375rem) {
-  .filter-table table tbody > tr:after {
+@media (max-width: 47.9375rem) {
+  .filter-table table tbody>tr:after {
     left: inherit;
     right: 0.5rem;
     top: 0.5rem;
@@ -266,6 +266,7 @@ table th {
   }
 }
 
+/*
 .colToggleLabel {
   align-items: center;
   color: #999;
