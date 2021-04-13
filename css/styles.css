@@ -213,12 +213,13 @@ table th {
   line-height: 1.6;
 }
 
-/*.filter-table .summary {
+.filter-table .summary {
   color: #888;
   font-size: 0.9rem;
   margin-bottom: 1.25rem;
 }
-.filter-table .colToggle, .filter-table .colToggleLabel {
+
+/*.filter-table .colToggle, .filter-table .colToggleLabel {
   margin-bottom: 1rem;
 }
 .filter-table .colToggleLabel {
