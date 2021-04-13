@@ -283,14 +283,15 @@ table th {
   }
 }
 
-/*.colToggleLabel .icon {
+.colToggleLabel .icon {
   fill: #999;
   height: 1.5rem;
   left: 0.25rem;
   position: absolute;
   width: 1.5rem;
 }
-@media (max-width: 47.9375rem) {
+
+/*@media (max-width: 47.9375rem) {
   .colToggleLabel .icon {
     left: 0;
   }
