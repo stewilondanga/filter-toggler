@@ -166,10 +166,11 @@ table thead {
   }
 }
 
-/*table tbody td {
+table tbody td {
   border-bottom: 1px solid #ddd;
 }
-table th, table td {
+
+/*table th, table td {
   padding: 0.5rem 1rem;
 }
 table th {
