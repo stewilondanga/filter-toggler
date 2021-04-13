@@ -428,14 +428,14 @@ table th {
   transform: scale(0);
 }
 
-/*.g-checkbox input:checked ~ .input-target .checked, .g-radio input:checked ~ .input-target .checked {
+.g-checkbox input:checked~.input-target .checked, .g-radio input:checked~.input-target .checked {
   -webkit-animation: blip 0.25s forwards;
-          animation: blip 0.25s forwards;
+  animation: blip 0.25s forwards;
   display: block;
   fill: rebeccapurple;
 }
 
-#contact h1 {
+/*#contact h1 {
   font-family: helvetica;
   font-weight: normal;
   text-align: center;
