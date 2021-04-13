@@ -291,12 +291,13 @@ table th {
   width: 1.5rem;
 }
 
-/*@media (max-width: 47.9375rem) {
+@media (max-width: 47.9375rem) {
   .colToggleLabel .icon {
     left: 0;
   }
 }
-.colToggleLabel .checked {
+
+/*.colToggleLabel .checked {
   transform: scale(0);
 }
 
