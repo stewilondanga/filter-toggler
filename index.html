@@ -59,6 +59,95 @@
     </div>
   </div>
 
+
+  <svg version="1.1" xmlns="http://www.w3.org/2000/svg" style="display:none">
+    <defs>
+      <symbol id="checkbox-default" viewBox="0 0 24 24">
+        <path d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"></path>
+      </symbol>
+      <symbol id="checkbox-checked" viewBox="0 0 24 24">
+        <path d="M19 3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.11 0 2-.9 2-2V5c0-1.1-.89-2-2-2zm-9 14l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"></path>
+      </symbol>
+    </defs>
+  </svg>
+  <fieldset class="container-md filter-table">
+    <legend>Sample table with filters</legend>
+    <div class="summary">Oh, it's obviously responsive as well.</div>
+    <input class="colToggle" id="time" type="checkbox" name="time" checked="checked"/>
+    <label class="colToggleLabel" for="time">
+      <svg class="icon default" aria-hidden="true">
+        <use xlink:href="#checkbox-default"></use>
+      </svg>
+      <svg class="icon checked" aria-hidden="true">
+        <use xlink:href="#checkbox-checked"></use>
+      </svg><span>Time</span>
+    </label>
+    <input class="colToggle" id="group" type="checkbox" name="group" checked="checked"/>
+    <label class="colToggleLabel" for="group">
+      <svg class="icon default" aria-hidden="true">
+        <use xlink:href="#checkbox-default"></use>
+      </svg>
+      <svg class="icon checked" aria-hidden="true">
+        <use xlink:href="#checkbox-checked"></use>
+      </svg><span>Group</span>
+    </label>
+    <input class="colToggle" id="name" type="checkbox" name="name" checked="checked"/>
+    <label class="colToggleLabel" for="name">
+      <svg class="icon default" aria-hidden="true">
+        <use xlink:href="#checkbox-default"></use>
+      </svg>
+      <svg class="icon checked" aria-hidden="true">
+        <use xlink:href="#checkbox-checked"></use>
+      </svg><span>Name</span>
+    </label>
+    <input class="colToggle" id="notes" type="checkbox" name="notes" checked="checked"/>
+    <label class="colToggleLabel" for="notes">
+      <svg class="icon default" aria-hidden="true">
+        <use xlink:href="#checkbox-default"></use>
+      </svg>
+      <svg class="icon checked" aria-hidden="true">
+        <use xlink:href="#checkbox-checked"></use>
+      </svg><span>Notes</span>
+    </label>
+    <table class="horizontal bordered" id="statTable">
+      <caption>Sample table</caption>
+      <thead>
+        <tr>
+          <th>Time</th>
+          <th>Group</th>
+          <th>Name</th>
+          <th>Notes</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td data-label="Time">20:49:14</td>
+          <td data-label="Group">Planetabler</td>
+          <td data-label="Name">Lakesha Vititoe</td>
+          <td data-label="Notes">Aliquid molestiae doloribus</td>
+        </tr>
+        <tr>
+          <td data-label="Time">21:13:22</td>
+          <td data-label="Group">Refractor</td>
+          <td data-label="Name">Booker Guymon</td>
+          <td data-label="Notes">Provident eum doloremque nostrum</td>
+        </tr>
+        <tr>
+          <td data-label="Time">21:42:12</td>
+          <td data-label="Group">Acquirer</td>
+          <td data-label="Name">Wynell Mallat</td>
+          <td data-label="Notes">Aperiam fuga omnis</td>
+        </tr>
+        <tr>
+          <td data-label="Time">22:16:31</td>
+          <td data-label="Group">Tossy</td>
+          <td data-label="Name">Hui Kersting</td>
+          <td data-label="Notes">Quidem sint commod</td>
+        </tr>
+      </tbody>
+    </table>
+  </fieldset>
+
   <section id="contact">
     <div class="overlay">
       <div class="containers">
